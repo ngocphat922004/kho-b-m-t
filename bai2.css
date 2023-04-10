@@ -1,0 +1,399 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(230, 230, 230);
+}
+.Menu{
+    background-color: green;
+    height: 50px;
+    width: 100%;
+
+}
+.header .Menu ul {
+    display: inline-block;
+}
+.Menu_1{
+
+    width: 40%;
+}
+.right{
+
+    float: right;
+    line-height: 50px;
+}
+.header .Menu .Menu_1 li{
+    display: inline-block;
+    line-height: 50px;
+   padding: 0% 2%;
+   
+}
+.header .Menu .Menu_1 li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+}
+.header .Menu .right li{
+    display: inline-block;
+    line-height: 5vh;
+    
+    
+}
+.header .Menu .right li a{
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+}
+.Menu_2{
+    width: 100%;
+    background-color:rgb(13, 133, 13);
+    height: 60px;
+}
+.img{
+    width: 100px;
+}
+
+.header .Menu_2 ul li{
+    display: inline-block;
+    
+    line-height: 45px;
+    padding: 0% 0.5%;
+
+}
+.header .Menu_2 ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.dropdown-menu li {
+    color: rgb(219, 15, 15);
+}
+.giohang{
+   float: right;
+
+   
+}
+.tasbar ul li{
+    display: inline-block;
+    line-height: 45px;
+}
+.tasbar ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+}
+.tasbar{
+ 
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(110, 110, 110);
+    margin: 2%;
+}
+.shopping_cart{
+
+    height: 50px;
+    margin: 0% 2%;
+    display: grid;
+    grid-template-areas:
+    "h3 h6"
+     ;
+}
+h3{
+    grid-area: h3;
+
+    line-height: 50px;
+}
+h6{
+    grid-area: h6;
+   
+    line-height: 50px;
+    text-align: right;
+}
+.thanhtoan{
+    display: grid;
+    grid-template-areas:
+    "table table checkout"
+     ;
+}
+.table{
+    grid-area: table;
+    background-color: rgb(255, 255, 255);
+   margin: 3%;
+}
+.checkout{
+    grid-area: checkout;
+
+}
+.table .product{
+    display: grid;
+    border: 2px solid  rgb(192, 192, 192);
+    grid-template-areas:
+    " product1 product2"
+    ;
+}
+.product1{
+    grid-area: product1;
+}
+.product2{
+    grid-area: product2;
+    text-align: right;
+}
+.table .product ul p{
+    display: inline-block;
+    margin: 0% 7%;
+    
+}
+.thanhtoan .T_shirt{
+    display: grid;
+    border-bottom: 2px solid rgb(192, 192, 192);
+    grid-template-areas:
+    "img_shirt textt delete QNT Discount Total"
+    ;
+}
+.img_shirt{
+    grid-area: img_shirt;
+
+   width: 170px;
+}
+.delete{
+    grid-area: delete;
+    text-align: center;
+    margin-top: 50px;
+ 
+}
+.textt{
+    grid-area: textt;
+    text-align: left;
+    
+}
+.QNT{
+    grid-area: QNT;
+    margin-top: 45px;
+    
+}
+.Discount{
+    grid-area: Discount;
+    margin-top: 55px;
+}
+.Total{
+    grid-area: Total;
+    margin-top: 55px;
+}
+
+.Proceed{
+    text-align: center;
+    background-color: rgb(135, 206, 30);
+    height: 50px;
+    margin-left:  10%;
+    margin-right: 5%;
+    margin-top: 6%;
+}
+.Proceed ul {
+    line-height: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 23px;
+}
+
+ .tax{
+    margin-top: 2%;
+    background-color: white;
+    margin-right:5% ;
+    margin-left: 10%;
+}
+.tax .ul{
+    display: grid;
+    height: 70px;
+    border-bottom: 2px solid rgb(177, 177, 177);
+    grid-template-areas:
+    "prite gia"
+     ;
+}
+.prite{
+    grid-area: prite;
+}
+.a a{
+    color: red;
+}
+.prite li{
+    color: rgb(128, 128, 128);
+    font-weight: bold;
+}
+.gia{
+    grid-area: gia;
+    text-align: right;
+}
+.tax .ul div li{
+    list-style: none;
+    line-height: 70px;
+    
+}
+.tax .ul div li a{
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+    font-weight: bold;
+}
+.checkout .tax ul .code{
+    float: left;
+   
+}
+.tax .Apply{
+    border: 1px solid rgb(102, 102, 102);
+    background-color: rgb(122, 182, 31);
+    text-align: center;
+}
+
+
+
+.footer{
+    display: grid;
+    width: 100%;
+    float: left;
+    background-color: rgb(255, 255, 255);
+  grid-template-areas:
+  "support support shop shop information information account account stay stay"
+   ;
+}
+h4{
+    font-weight: bold;
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+.support{
+    grid-area: support;
+
+    height: 30vh;
+    
+}
+.shop{
+    grid-area: shop;
+
+    height: 30vh;
+    margin: 0% 5%;
+   
+    
+}
+.information{
+    grid-area: information;
+
+    height: 30vh;
+    
+}
+.account{
+    grid-area: account;
+
+    height: 30vh;
+    margin: 0% 5%;
+}
+.stay{
+    grid-area: stay;
+
+    height: 30vh;
+    
+}
+.thontin{
+    color: rgb(134, 134, 134);
+}
+.dt{
+    font-weight: bold;
+}
+.mail{
+    color: rgb(134, 134, 134);
+    font-size: 18px;
+}
+.input{
+    width: 100%;
+    background-color: aqua;
+}
+@media screen and (max-width:850px){
+    .header .Menu_2 ul li{
+        display: block;
+       margin: -20px 0px;
+       text-align: center;
+    }
+    
+    .Menu_2{
+        width: 100%;
+        background-color:rgb(13, 133, 13);
+        height: 260px;
+    }
+    .img{
+        width: 20%;
+    }
+    .header .Menu ul {
+        
+        float: none;
+    }
+    .Menu{
+        text-align: center;
+    }
+    .thanhtoan{
+        display: grid;
+        grid-template-areas:
+        "table "
+        "checkout"
+         ;
+    }
+    .table{
+        grid-area: table;
+        background-color: rgb(255, 255, 255);
+       
+    }
+    .checkout{
+        grid-area: checkout;
+    
+    }
+    .footer{
+        display: grid;
+        width: 100%;
+        float: left;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+      grid-template-areas:
+      "support support support support "
+      "shop shop information information"
+      "account account stay stay"
+       ;
+    }
+    h4{
+        font-weight: bold;
+        border-bottom: 1px solid rgb(194, 194, 194);
+    }
+    .support{
+        grid-area: support;
+    
+        height: 30vh;
+        
+    }
+    .shop{
+        grid-area: shop;
+    
+        height: 30vh;
+        margin: 0% 5%;
+       
+        
+    }
+    .information{
+        grid-area: information;
+    
+        height: 30vh;
+        
+    }
+    .account{
+        grid-area: account;
+    
+        height: 30vh;
+        margin: 0% 5%;
+    }
+    .stay{
+        grid-area: stay;
+    
+        height: 30vh;
+        
+    }
+    .logo{
+        font-size: 35px;
+        font-weight: bold;
+    }
+}
